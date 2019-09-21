@@ -1,22 +1,109 @@
-.App {
-  text-align: center;
+.nav-color{
+    color:#fff!important;
+    background: #642B73;  /* fallback for old browsers */
+
+}
+.cc-style{
+    text-decoration: none;
+}
+.nav-chetan-color {
+    font-weight: bold;
+    color: white;
+}
+.nav-item-type {
+    font-weight: bold;
+    font-size: 23px;
 }
 
-.App-logo {
-  height: 40vmin;
+.resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-width: 993px) {
+    .main-comp-style{
+        margin-top: 80px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+    }
+    .landing-style-mobile {
+        margin: 0;
+        position: relative;
+        text-align: center;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-end: auto;
+    }
 }
 
-.App-link {
-  color: #09d3ac;
+.sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+@media (min-width:993px){.hide-large{display:none!important}.sidebar.collapse{display:block!important}}
+@media (max-width:992px){.sidebar.collapse{display:none}.main{margin-left:0!important;margin-right:0!important}}
+
+
+.avatar-img {
+    height:20em;
+    border-radius:10em;
 }
+
+.landing-style {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.social-links {
+    display: flow;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto 15%;
+}
+
+.social-links i {
+    color: white;
+    font-size: 400%;
+    padding: 10px;
+
+}
+
+.hr-black {
+    border: 4px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 70%;
+    margin: auto;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
