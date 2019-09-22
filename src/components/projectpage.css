@@ -1,0 +1,3 @@
+.main-card {
+    @include 'bootstrap.min.css';
+}
