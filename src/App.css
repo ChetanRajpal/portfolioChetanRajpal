@@ -80,6 +80,16 @@
     margin-right: auto;
 }
 
+.btn-flat {
+    background-color: #642B73;
+    color: white;
+  }
+
+.btn-xl {
+    padding: 0.8rem 0.8rem;
+    font-size: 0.8rem;
+  }
+
 
 .banner-text {
     background-color: black;
