@@ -13,13 +13,13 @@ class AboutMe extends Component {
                     <Cell col={4}>
                     <Carousel showThumbs={false} showArrows={false} autoPlay={true} showStatus={false} infiniteLoop={true}>
                 <div>
-                    <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" />
+                    <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" />
+                    <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt="" />
                 </div>
                 <div>
-                    <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" />
+                    <img src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt="" />
                 </div>
             </Carousel>
                    </Cell>

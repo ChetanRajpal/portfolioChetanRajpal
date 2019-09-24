@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import chmain from "./pic.jpg";
 
 
 class Resume extends Component {
@@ -13,13 +14,13 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'left'}}>
                             <img
-                                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                                src={chmain}
                                 alt="avatar"
-                                style={{height: '200px'}}
+                                style={{height: '150px', borderRadius:"75px"}}
                             />
                         </div>
 
-                        <h2 style={{paddingTop: '2em'}}>Chetan Rajpal</h2>
+                        <h2 style={{paddingTop: '1em'}}>Chetan Rajpal</h2>
                         <h4 style={{color: 'grey'}}>Front End Developer </h4>
                         <hr style={{borderTop: '3px solid #642B73', width: '50%'}}/>
                         <p>Intend to build a career with a leading corporate with committed and dedicated people, 

@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Nav from "react-bootstrap/Nav";
 import Main from "./components/main";
 import {Link} from "react-router-dom";
+import chmain from "./components/pic.jpg";
 
 
 class App extends Component {
@@ -24,13 +25,18 @@ class App extends Component {
             <div>
 
                 <Nav className="w3-sidebar nav-color w3-collapse w3-top w3-large w3-padding"
-                     style={{zIndex:'3',width:'300px',fontWeight:'bold'}} id="mySidebar">
+                     style={{zIndex:'3',width:'270px',fontWeight:'bold'}} id="mySidebar">
                     <a href="javascript:void(0)" onClick={this.w3_close} className="w3-button w3-hide-large w3-display-topleft" style={{width:'100%',fontSize:'22px', textAlign:'left' }}>
                         <i className="fas fa-arrow-left"/>
                     </a>
 
                     <div className="w3-container">
-                        <h3 className="w3-padding-64">
+                      <div style={{paddingTop:"45px", textAlign:"center" }}>
+                      <Link to="/" onClick={this.w3_close} className="cc-style" >  
+                      <img style={{width:"70%", borderRadius:"70%"}} src={chmain}/>
+                      </Link>
+                      </div>  
+                        <h3 style={{paddingTop:"20px", paddingBottom:"40px", textAlign:"center"}}>
                             <Link to="/" onClick={this.w3_close} className="cc-style" >
                             <b>Chetan Rajpal</b>
                             </Link>

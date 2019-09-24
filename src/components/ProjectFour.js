@@ -6,16 +6,17 @@ class ProjectFour extends React.Component {
     return (
       <Modal
         {...this.props}
-        bsSize="large"
+        size="lg"
         aria-labelledby="proect-four"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="project-four">Project 4</Modal.Title>
+          <Modal.Title id="project-four">ANDROID TV MEDIA PLAYER</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <h4>Wrapped Text</h4>
-          <p>
-            Project 4
+          <p style={{fontSize:"1.3em"}}>
+          This app basically allows users to acquire media such as Music, Movies
+and TV shows from NAS and arrange them in beautiful format. This app directly plays
+these media from NAS present in a local network.
           </p>
         </Modal.Body>
       </Modal>

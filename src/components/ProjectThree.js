@@ -6,16 +6,18 @@ class ProjectThree extends React.Component {
     return (
       <Modal
         {...this.props}
-        bsSize="large"
+        size="lg"
         aria-labelledby="proect-three"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="project-three">Project 3</Modal.Title>
+          <Modal.Title id="project-three">REAL ESTATE WEB PORTAL</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <h4>Wrapped Text</h4>
-          <p>
-            Project 3
+          <p style={{fontSize:"1.3em"}}>
+          Using this web portal, it will allow users to provide details of their
+properties that are for sale or for lease. It also allows users to search for properties
+that are for sale by the builder. Moreover users can post their requirements regarding the
+property they want to buy or want to rent.
           </p>
         </Modal.Body>
       </Modal>

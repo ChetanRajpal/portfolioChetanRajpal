@@ -1,13 +1,9 @@
 import React, {Component} from "react";
-//import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 import { Grid, Cell } from 'react-mdl';
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-///import 'bootstrap/dist/css/bootstrap.css';
-//import "mdbreact/dist/css/mdb.css";
-//import { MDBContainer, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
 import ProjectOne from './ProjectOne';
 import ProjectTwo from './ProjectTwo';
 import ProjectThree from './ProjectThree';
@@ -15,6 +11,12 @@ import ProjectFour from './ProjectFour';
 import ProjectFive from './ProjectFive';
 import ProjectSix from './ProjectSix';
 import Button from 'react-bootstrap/Button';
+import rasp from './rasp_project_img.jpg';
+import ids from './ids.jpg';
+import reales from './realestate.jpg';
+import antv from './antv.jpg';
+import braille from './braillekey.jpg';
+import toll from './tollplaza.jpg';
 
 
 class Projects extends Component {
@@ -44,46 +46,37 @@ class Projects extends Component {
             <div>
                 <Grid>
                     <Cell col={12}>
-                        <h1>Projects</h1>
+                        <h1 style={{textAlign:"center", fontFamily:"Georgia", fontWeight:"bold"}}>Projects</h1>
                     </Cell>
                     <Cell col={12}>
                     <CardDeck>
                          <Card>
-                         <Card.Img variant="top" src="https://www.w3schools.com/w3css/img_avatar3.png" />
+                         <Card.Img variant="top" src={rasp} />
                          <Card.Body>
-                         <Card.Title>Project 1</Card.Title>
-                         <Card.Text>
-                          Project 1
-                         </Card.Text>
+                         <Card.Title>ANALYSIS OF MALWARE Linux.MulDrop.14</Card.Title>
                          </Card.Body>
                          <Card.Footer className="text-center">
-                         <Button variant="flat" size="xl" onClick={() => this.setState({ poShow: true })}>Read More</Button>
+                         <Button variant="flat" size="xl" onClick={() => this.setState({ poShow: true })}>Read</Button>
                          <ProjectOne show={this.state.poShow} onHide={poClose} />
                          </Card.Footer>
                          </Card>
                          <Card>
-                         <Card.Img variant="top" src="https://www.w3schools.com/w3css/img_avatar3.png" />
+                         <Card.Img variant="top" src={ids} />
                          <Card.Body>
-                         <Card.Title>Project 2</Card.Title>
-                         <Card.Text>
-                             Project 2
-                         </Card.Text>
+                         <Card.Title>STUDY OF FIREWALL AND IDS</Card.Title>
                          </Card.Body>
                          <Card.Footer className="text-center">
-                         <Button variant="flat" size="xl" onClick={() => this.setState({ ptShow: true })}>Read More</Button>
+                         <Button variant="flat" size="xl" onClick={() => this.setState({ ptShow: true })}>Read</Button>
                          <ProjectTwo show={this.state.ptShow} onHide={ptClose} />
                          </Card.Footer>
                          </Card>
                          <Card>
-                           <Card.Img variant="top" src="https://www.w3schools.com/w3css/img_avatar3.png" />
+                           <Card.Img variant="top" src={reales} />
                            <Card.Body>
-                             <Card.Title>Project 3</Card.Title>
-                             <Card.Text>
-                               Project 3
-                             </Card.Text>
-                           </Card.Body>
+                             <Card.Title>REAL ESTATE WEB PORTAL</Card.Title>
+                             </Card.Body>
                            <Card.Footer className="text-center">
-                           <Button variant="flat" size="xl" onClick={() => this.setState({ pthShow: true })}>Read More</Button>
+                           <Button variant="flat" size="xl" onClick={() => this.setState({ pthShow: true })}>Read</Button>
                            <ProjectThree show={this.state.pthShow} onHide={pthClose} />
                            </Card.Footer>
                          </Card>
@@ -92,41 +85,32 @@ class Projects extends Component {
                     <Cell col={12}>
                     <CardDeck>
                          <Card>
-                         <Card.Img variant="top" src="https://www.w3schools.com/w3css/img_avatar3.png" />
+                         <Card.Img variant="top" src={antv} />
                          <Card.Body>
-                         <Card.Title>Project 4</Card.Title>
-                         <Card.Text>
-                          Project 4
-                         </Card.Text>
+                         <Card.Title>ANDROID TV MEDIA PLAYER</Card.Title>
                          </Card.Body>
                          <Card.Footer className="text-center">
-                         <Button variant="flat" size="xl" onClick={() => this.setState({ pfShow: true })}>Read More</Button>
+                         <Button variant="flat" size="xl" onClick={() => this.setState({ pfShow: true })}>Read</Button>
                          <ProjectFour show={this.state.pfShow} onHide={pfClose} />
                          </Card.Footer>
                          </Card>
                          <Card>
-                         <Card.Img variant="top" src="https://www.w3schools.com/w3css/img_avatar3.png" />
+                         <Card.Img variant="top" src={braille} />
                          <Card.Body>
-                         <Card.Title>Project 5</Card.Title>
-                         <Card.Text>
-                             Project 5
-                         </Card.Text>
+                         <Card.Title>WIRELESS BRAILLE KEYBOARD AND PEDOMETER FOR BLINDS</Card.Title>
                          </Card.Body>
                          <Card.Footer className="text-center">
-                         <Button variant="flat" size="xl" onClick={() => this.setState({ pfiShow: true })}>Read More</Button>
+                         <Button variant="flat" size="xl" onClick={() => this.setState({ pfiShow: true })}>Read</Button>
                          <ProjectFive show={this.state.pfiShow} onHide={pfiClose} />
                          </Card.Footer>
                          </Card>
                          <Card>
-                           <Card.Img variant="top" src="https://www.w3schools.com/w3css/img_avatar3.png" />
+                           <Card.Img variant="top" src={toll} />
                            <Card.Body>
-                             <Card.Title>Project 6</Card.Title>
-                             <Card.Text>
-                               Project 6
-                             </Card.Text>
-                           </Card.Body>
+                             <Card.Title>AUTOMATIC TOLL PLAZA SYSTEM USING ARDUINO AND GSM</Card.Title>
+                             </Card.Body>
                            <Card.Footer className="text-center">
-                           <Button variant="flat" size="xl" onClick={() => this.setState({ psShow: true })}>Read More</Button>
+                           <Button variant="flat" size="xl" onClick={() => this.setState({ psShow: true })}>Read</Button>
                            <ProjectSix show={this.state.psShow} onHide={psClose} />
                            </Card.Footer>
                          </Card>
