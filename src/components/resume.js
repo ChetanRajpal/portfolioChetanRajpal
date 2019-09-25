@@ -11,6 +11,10 @@ class Resume extends Component {
         return(
             <div>
                 <Grid>
+                <Cell col={12}>
+                        <h1 style={{textAlign:"center", fontFamily:"Georgia", fontWeight:"bold"}}>Resume</h1>
+                        <hr className="headinghr"/>
+                    </Cell>
                     <Cell col={4}>
                         <div style={{textAlign: 'left'}}>
                             <img

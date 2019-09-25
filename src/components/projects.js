@@ -47,6 +47,7 @@ class Projects extends Component {
                 <Grid>
                     <Cell col={12}>
                         <h1 style={{textAlign:"center", fontFamily:"Georgia", fontWeight:"bold"}}>Projects</h1>
+                        <hr className="headinghr"/>
                     </Cell>
                     <Cell col={12}>
                     <CardDeck>

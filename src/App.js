@@ -42,7 +42,7 @@ class App extends Component {
                             </Link>
                             </h3>
                     </div>
-                    <div className="w3-bar-block">
+                    <div className="w3-bar-block" style={{paddingLeft:"15px"}}>
                         <Link to="/about" onClick={this.w3_close} className="w3-bar-item w3-button w3-hover-white ">About Me</Link>
                         <Link to="/resume" onClick={this.w3_close} className="w3-bar-item w3-button w3-hover-white ">Resume</Link>
                         <Link to="/projects" onClick={this.w3_close} className="w3-bar-item w3-button w3-hover-white ">Projects</Link>
