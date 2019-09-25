@@ -25,7 +25,7 @@ class Resume extends Component {
                         </div>
 
                         <h2 style={{paddingTop: '1em'}}>Chetan Rajpal</h2>
-                        <h4 style={{color: 'grey'}}>Front End Developer </h4>
+                        <h4 style={{color: '#5F5F5F'}}>Front End Developer </h4>
                         <hr style={{borderTop: '3px solid #642B73', width: '50%'}}/>
                         <p>Intend to build a career with a leading corporate with committed and dedicated people, 
                             which will provide me the right environment to use my skills in Cyber Security and 
@@ -37,7 +37,7 @@ class Resume extends Component {
                         <h5>Email</h5>
                         <p>chetanrajpal04@gmail.com</p>
                         <h5>Web</h5>
-                        <p>mywebsite.com</p>
+                        <p>chetanrajpal.tk</p>
                         <hr style={{borderTop: '3px solid #642B73', width: '50%'}}/>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
