@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import chmain from "./pic.jpg";
+import pic15 from "./pic15.jpg";
 
 
 class Resume extends Component {
@@ -18,7 +18,8 @@ class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'left'}}>
                             <img
-                                src={chmain}
+                                className="image-resume"
+                                src={pic15}
                                 alt="avatar"
                                 style={{height: '150px', borderRadius:"75px"}}
                             />

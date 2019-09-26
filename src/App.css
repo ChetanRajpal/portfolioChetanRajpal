@@ -46,6 +46,7 @@
 .avatar-img {
     height:20em;
     border-radius:10em;
+    border: 2px solid black;
 }
 
 .headinghr {
@@ -78,6 +79,19 @@
     padding: 10px;
 
 }
+.image-size{
+    border-radius: 30px;
+    border: 2px solid black
+}
+
+.image-resume{
+    border: 2px solid black;
+}
+
+.image-appbar{
+    border: 2px solid black;
+}
+
 
 .hr-black {
     border: 4px solid black;

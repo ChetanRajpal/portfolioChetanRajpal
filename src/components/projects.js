@@ -54,7 +54,7 @@ class Projects extends Component {
                          <Card>
                          <Card.Img variant="top" src={rasp} />
                          <Card.Body>
-                         <Card.Title>ANALYSIS OF MALWARE Linux.MulDrop.14</Card.Title>
+                         <Card.Title style={{fontFamily:'roboto'}}>ANALYSIS OF MALWARE Linux.MulDrop.14</Card.Title>
                          </Card.Body>
                          <Card.Footer className="text-center">
                          <Button variant="flat" size="xl" onClick={() => this.setState({ poShow: true })}>Read</Button>
@@ -64,7 +64,7 @@ class Projects extends Component {
                          <Card>
                          <Card.Img variant="top" src={ids} />
                          <Card.Body>
-                         <Card.Title>STUDY OF FIREWALL AND IDS</Card.Title>
+                         <Card.Title style={{fontFamily:'roboto'}}>STUDY OF FIREWALL AND IDS</Card.Title>
                          </Card.Body>
                          <Card.Footer className="text-center">
                          <Button variant="flat" size="xl" onClick={() => this.setState({ ptShow: true })}>Read</Button>
@@ -74,7 +74,7 @@ class Projects extends Component {
                          <Card>
                            <Card.Img variant="top" src={reales} />
                            <Card.Body>
-                             <Card.Title>REAL ESTATE WEB PORTAL</Card.Title>
+                             <Card.Title style={{fontFamily:'roboto'}}>REAL ESTATE WEB PORTAL</Card.Title>
                              </Card.Body>
                            <Card.Footer className="text-center">
                            <Button variant="flat" size="xl" onClick={() => this.setState({ pthShow: true })}>Read</Button>
@@ -88,7 +88,7 @@ class Projects extends Component {
                          <Card>
                          <Card.Img variant="top" src={antv} />
                          <Card.Body>
-                         <Card.Title>ANDROID TV MEDIA PLAYER</Card.Title>
+                         <Card.Title style={{fontFamily:'roboto'}}>ANDROID TV MEDIA PLAYER</Card.Title>
                          </Card.Body>
                          <Card.Footer className="text-center">
                          <Button variant="flat" size="xl" onClick={() => this.setState({ pfShow: true })}>Read</Button>
@@ -98,7 +98,7 @@ class Projects extends Component {
                          <Card>
                          <Card.Img variant="top" src={braille} />
                          <Card.Body>
-                         <Card.Title>WIRELESS BRAILLE KEYBOARD AND PEDOMETER FOR BLINDS</Card.Title>
+                         <Card.Title style={{fontFamily:'roboto'}}>WIRELESS BRAILLE KEYBOARD AND PEDOMETER FOR BLINDS</Card.Title>
                          </Card.Body>
                          <Card.Footer className="text-center">
                          <Button variant="flat" size="xl" onClick={() => this.setState({ pfiShow: true })}>Read</Button>
@@ -108,7 +108,7 @@ class Projects extends Component {
                          <Card>
                            <Card.Img variant="top" src={toll} />
                            <Card.Body>
-                             <Card.Title>AUTOMATIC TOLL PLAZA SYSTEM USING ARDUINO AND GSM</Card.Title>
+                             <Card.Title style={{fontFamily:'roboto'}}>AUTOMATIC TOLL PLAZA SYSTEM USING ARDUINO AND GSM</Card.Title>
                              </Card.Body>
                            <Card.Footer className="text-center">
                            <Button variant="flat" size="xl" onClick={() => this.setState({ psShow: true })}>Read</Button>

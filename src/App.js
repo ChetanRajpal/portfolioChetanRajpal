@@ -33,7 +33,7 @@ class App extends Component {
                     <div className="w3-container">
                       <div style={{paddingTop:"45px", textAlign:"center" }}>
                       <Link to="/" onClick={this.w3_close} className="cc-style" >  
-                      <img style={{width:"70%", borderRadius:"70%"}} src={chmain}/>
+                      <img style={{width:"70%", borderRadius:"70%"}} className="image-appbar" src={chmain}/>
                       </Link>
                       </div>  
                         <h3 style={{paddingTop:"20px", paddingBottom:"40px", textAlign:"center"}}>
