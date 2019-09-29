@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import "bootstrap-css-only/css/bootstrap.min.css";
 import pic11 from './pic11.jpg';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap//Button';
 
 class Contact extends Component {
   render() {
@@ -12,18 +14,32 @@ class Contact extends Component {
             <h2 style={{textAlign:"center", fontFamily:"Georgia", fontWeight:"bold", fontFamily:"Georgia", fontWeight:"bold"}}>Contact Me</h2>
             <hr className="headinghr"/>
             </Cell>
-            <Cell col={6} style={{paddingTop:"20px"}}>
+            <Cell col={4} style={{paddingTop:"20px"}}>
             <img
               src={pic11}
+              className="contact-image" 
               alt="avatar"
-              style={{height: '251px', borderRadius:'20px'}}
+              style={{height: '251px', borderRadius:'20px', margin:'auto'}}
                />
           </Cell>
-          <Cell col={6}>
-          <p style={{ width: '100%', margin: 'auto', paddingTop: '3em', fontFamily:'roboto'}}>Lorem Ipsum is simply dummy
-          text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+          <Cell col={8}>
+          <Form className="custom-width" name="contact" method="POST" data-netlify="true">
+               <Form.Group>
+               <Form.Label>Full Name</Form.Label>
+               <Form.Control type="text" name="name"/>
+               </Form.Group>
+               <Form.Group>
+               <Form.Label>Email</Form.Label>
+               <Form.Control type="email" name="email"/>
+               </Form.Group>
+               <Form.Group>
+               <Form.Label>Message</Form.Label>
+               <Form.Control name="message" as="textarea" rows="2"/>
+               </Form.Group>
+               <Button className="d-inline-block" variant="primary" type="submit">
+               Send
+               </Button>
+               </Form>
           </Cell>
           <Cell col={4}>
               <div style={{textAlign:'center', paddingTop:'10px'}}>

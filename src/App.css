@@ -14,6 +14,23 @@
     font-weight: bold;
     font-size: 23px;
 }
+.custom-width {
+    padding-right: 10px; 
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+.success-msg {
+    color: #57A773;
+    padding: 10px 15px;
+  }
+  
+  
+  .err-msg {
+    color: #EE6352;
+    padding: 10px 15px;
+  }
 
 .resume-right-col {
     background: #27221F;
@@ -26,6 +43,11 @@
         margin-top: 80px;
         padding-left: 5px;
         padding-bottom: 10px;
+    }
+    .contact-image{
+        text-align: center;
+        margin: auto;
+        display: block;
     }
     .landing-style-mobile {
         margin: 0;
@@ -81,7 +103,8 @@
 }
 .image-size{
     border-radius: 30px;
-    border: 2px solid black
+    border: 2px solid black;
+    max-width: 100%;
 }
 
 .image-resume{
@@ -141,6 +164,12 @@
 .about-p {
     text-align: justify;
     margin: auto;
+}
+
+.carousel-alignment{
+    text-align: center;
+    margin-left: auto;
+  margin-right: auto;
 }
 
 /* contact page css */

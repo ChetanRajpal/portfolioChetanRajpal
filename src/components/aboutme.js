@@ -16,27 +16,27 @@ class AboutMe extends Component {
                     <hr className="headinghr"/>
                     </Cell>
                     <Cell col={6}>
-                    <Carousel style={{width:'380px', marginTop:'10px'}}>
+                    <Carousel className="craousel-aligntment" style={{width:'auto',marginTop:'10px'}}>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100 image-size"
-                            style={{height:'445px'}}
+                            className="w-100 image-size"
+                            style={{}}
                             src={pic12}
                             alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100 image-size"
-                            style={{height:'445px'}}
+                            className="w-100 image-size"
+                            style={{}}
                             src={pic13}
                             alt="Third slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100"
-                            style={{height:'445px'}}
+                            className="w-100"
+                            style={{}}
                             src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
                             alt="Third slide"
                             />
