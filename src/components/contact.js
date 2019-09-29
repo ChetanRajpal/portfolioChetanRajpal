@@ -23,23 +23,20 @@ class Contact extends Component {
                />
           </Cell>
           <Cell col={8}>
-          <Form className="custom-width" name="contact" method="POST" data-netlify="true">
-               <Form.Group>
-               <Form.Label>Full Name</Form.Label>
-               <Form.Control type="text" name="name"/>
-               </Form.Group>
-               <Form.Group>
-               <Form.Label>Email</Form.Label>
-               <Form.Control type="email" name="email"/>
-               </Form.Group>
-               <Form.Group>
-               <Form.Label>Message</Form.Label>
-               <Form.Control name="message" as="textarea" rows="2"/>
-               </Form.Group>
-               <Button className="d-inline-block" variant="primary" type="submit">
-               Send
-               </Button>
-               </Form>
+          <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
           </Cell>
           <Cell col={4}>
               <div style={{textAlign:'center', paddingTop:'10px'}}>
