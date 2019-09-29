@@ -107,6 +107,11 @@
     max-width: 100%;
 }
 
+.map-size{
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
 .image-resume{
     border: 2px solid black;
 }

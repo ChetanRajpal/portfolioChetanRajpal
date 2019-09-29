@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import "bootstrap-css-only/css/bootstrap.min.css";
 import pic11 from './pic11.jpg';
+import Map from 'pigeon-maps'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap//Button';
 
+
+
 class Contact extends Component {
+ 
+
   render() {
     return(
       <div className="contact-body">
@@ -14,7 +19,7 @@ class Contact extends Component {
             <h2 style={{textAlign:"center", fontFamily:"Georgia", fontWeight:"bold", fontFamily:"Georgia", fontWeight:"bold"}}>Contact Me</h2>
             <hr className="headinghr"/>
             </Cell>
-            <Cell col={4} style={{paddingTop:"20px"}}>
+            <Cell col={6} style={{paddingTop:"20px"}}>
             <img
               src={pic11}
               className="contact-image" 
@@ -22,21 +27,11 @@ class Contact extends Component {
               style={{height: '251px', borderRadius:'20px', margin:'auto'}}
                />
           </Cell>
-          <Cell col={8}>
-          <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+          <Cell col={6}>
+          <div style={{ margin:'auto'}}>
+          <h3 style={{fontFamily: 'Anton'}}>Location</h3>
+          <Map center={[28.6139, 77.2090]} zoom={11.8} width={500} height={200}></Map>
+          </div>
           </Cell>
           <Cell col={4}>
               <div style={{textAlign:'center', paddingTop:'10px'}}>
